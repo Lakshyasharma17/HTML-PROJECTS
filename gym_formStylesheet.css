@@ -1,0 +1,116 @@
+#head_2{
+    display: inline;
+    background-color: rgb(0, 0, 0);
+    font-family:Helvetica,Arial, Helvetica, sans-serif;
+    font: size 400px;
+    color: rgb(255, 186, 126);
+    -webkit-text-stroke: 2px;
+    font-size: 3em;
+    margin-top: 1px;
+    padding-top: 0%;
+}
+#head_1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: inline;
+    background-color:rgb(0, 0, 0);
+    margin-bottom: 0%;
+    margin-top: 40px;
+}
+#terms_conditions{
+    box-shadow: 12px 12px 10px;
+    border: 5px groove black;
+    display: inline-block;
+    width: 600px;
+    padding: 5px;
+    padding-left: 10px;
+    background-color:rgb(211, 211, 211);
+}
+#text{
+    padding-left: 30px;
+}
+.block2{
+    background-color: rgb(30, 30, 255);
+}
+#text2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.block3{
+    background-color: rgb(30, 30, 255);
+}
+#text3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.block0{
+    background-color: rgb(30, 30, 255);
+}
+#text0{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+#name{
+    background-color:rgb(211, 211, 211);
+    width: 200px;
+}
+#address{
+    background-color:rgb(211, 211, 211);
+    width: 500px;
+}
+#email{
+    background-color:rgb(211, 211, 211);
+    width: 400px;
+}
+#city{
+    background-color:rgb(211, 211, 211);
+}
+#state{
+    background-color:rgb(211, 211, 211);
+}
+#phone{
+    background-color:rgb(211, 211, 211);
+}
+#DOB{
+    background-color:rgb(211, 211, 211);
+}
+#legend{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    -webkit-text-stroke: 1px;
+    font-size: 18px;
+}
+#legend2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    -webkit-text-stroke: 1px;
+    font-size: 18px;
+}
+#legend3{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    -webkit-text-stroke: 1px;
+    font-size: 18px;
+}
+#legend4{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    -webkit-text-stroke: 1px;
+    font-size: 18px;
+}
+/*
+body{
+    background-image: url(1000_F_231672491_WiZa8Uz44QzYxcAk9redk116mQLUGtmc.jpg);
+}
+*/

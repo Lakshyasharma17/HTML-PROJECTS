@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+    <title>Gym Membership Registration</title>
+    <link rel="stylesheet" href = "gym_formStylesheet.css">
+</head>
+<body>
+    <h2 id = "head_1" style="margin-left: 560px;">GYM MEMBERSHIP FORM</h2><br><br>
+    <img src="image.jpg" style="height: 150px;width: auto;margin-left: 500px;">
+    <!--
+    <h1 id = "head_2">IMAGINERY GYM</h1>
+    -->
+    <h2 id = "text_1" style="margin-left: 445px;"> Complete the form below to sign up for gym membership :</h2>
+    <br>
+    <img src="torch.png" style="margin-bottom: 300px;margin-left: 250px ;display: inline;">
+    <div style= "margin-left: 75px;" id = "terms_conditions">
+        <h3 style="font-family: Helvetica, sans-serif;">Terms and conditions :</h3>
+        <p class = "square"></p>
+        <p id = "text" style="-webkit-text-stroke: 0.5px black;font-family:Helvetica, sans-serif;"> By becoming a member of [Your Gym Name], you agree to the following terms and conditions. You must be at least 18 years old or have parental consent to join. Membership dues are to be paid on a recurring basis as specified, and any overdue payments may result in suspension or termination of your membership. Members are responsible for their personal belongings, and the gym is not liable for any lost or stolen items. You understand and accept the potential risks associated with exercising and using gym equipment, and you agree to use the facilities responsibly and follow the gym rules and guidelines. The Gym reserves the right to modify its hours of operation, facilities, and services, and any such changes will be communicated to members. Any violation of these terms may result in membership revocation.</p>
+    </div>
+    <br>
+    <br>
+    <!--
+    <div class = "block0">
+        <h3 id = "text0">Personal Details</h3>
+    </div>
+    -->
+<fieldset>
+    <legend id = "legend">Personal Details</legend>
+<form style="margin-left: 40px;">
+    <label for = "name" style="font-size: 20px; padding-right: 23px;"> Full Name :</label>
+    <input type = "text" id = "name" required> <br><br>
+    
+    <label for = "address" style="font-size: 20px;padding-right: 10px;">Full Address:</label>
+    <input type = "text" id = "address" required><br>
+    <label for = "city" style="font-size: 20px;padding-right: 77px;">City:</label>
+    <input type = "text" id = "city" required>
+    <label for = "state" style="font-size: 20px;padding-left: 20px;">State:</label>
+    <input type = "text" id = "state" required><br><br>
+    
+    <label for = "email" style="font-size: 20px;padding-right: 65px;">Email:</label>
+    <input type = "email" id = "email" required placeholder="abc@gmail.com"><br><br>
+    
+    <label for = "phone" style="font-size: 20px; padding-right: 26px;">Phone No.:</label> 
+    <input type = "text" id = "phone" required placeholder="9882XXXXXX" pattern="[0-9]{10}"><br><br>
+
+    <label for = "DOB" style="font-size: 20px;padding-right: 3px;">Date Of Birth:</label> 
+    <input type = "date" id = "DOB" required><br><br>
+    <label for = "gender" style="font-size: 20px;padding-right: 50px;">Gender:</label>
+    Male <input type = "radio" id = "gender" name = "gender">
+    Female <input type = "radio" id = "gender" name = "gender">
+    Others<input type = "radio" id = "gender" name = "gender"><br><br>
+    <input type="submit">
+    <input type = "reset">
+</form>
+</fieldset>
+<br><br>
+<!--
+<div class = "block2">
+    <h3 id = "text2">Which of the following are important to you ?</h3>
+</div>
+-->
+<fieldset>
+    <legend id = "legend2">Which of the following are important to you</legend>
+<form style="margin-left: 40px;">
+    <input type="checkbox"> <label style="font-size: 20px; padding-right: 23px;">Weight Loss</label><br>
+    <input type="checkbox"> <label style="font-size: 20px; padding-right: 23px;">Energy and Endurance</label><br>
+    <input type="checkbox"> <label style="font-size: 20px; padding-right: 23px;">Building Lean Muscle Mass</label><br>
+    <input type="checkbox"> <label style="font-size: 20px; padding-right: 23px;">Bulking</label><br>
+    <input type="checkbox"> <label style="font-size: 20px; padding-right: 23px;">Bodybuilding Competition</label><br>
+    <input type="checkbox"> <label style="font-size: 20px; padding-right: 23px;">Powerlifting</label><br>
+    <input type="checkbox"> <label style="font-size: 20px; padding-right: 23px;">Crossfit</label><br>
+    <input type="checkbox"> <label style="font-size: 20px; padding-right: 23px;">Yoga</label><br><br>
+    <label style="font-size: 20px; padding-right: 23px;">Other:</label><input type="text"><br><br>
+    <input type="submit">
+    <input type = "reset">
+
+
+</form>
+</fieldset>
+<br><br>
+<!--
+<div class = "block3">
+    <h3 id = "text3">Membership Fees</h3>
+</div>
+-->
+
+<fieldset>
+    <legend id = "legend3">
+        Membership Fees
+    </legend>
+<form style="margin-left: 40px;">
+    <input type = "radio" name = "fees"> <label style="font-size: 20px; padding-right: 23px;">Monthly ₹2000</label><br><br>
+    <input type = "radio"name = "fees"> <label style="font-size: 20px; padding-right: 23px;">Quaterly ₹5000</label><br><br>
+    <input type = "radio"name = "fees"> <label style="font-size: 20px; padding-right: 23px;">Annualy ₹12000</label><br><br>
+    <input type="submit">
+    <input type = "reset">
+</form>
+</fieldset>
+
+<!--
+<div class = "block3">
+    <h3 id = "text3">More Information</h3>
+</div>
+-->
+<br><br>
+<fieldset style="margin-bottom: 40px;">
+    <legend id = "legend4">More Information</legend>
+    <a href="tel:8989898989" style="display:inline;text-decoration: none;">📞</a><p style="margin-left: 10px;font-size: 20px; padding-right: 23px;display: inline;">Contact No. : 9832XXXXXX</p><br><br>
+<a href="mailto:imaginerygym@gmail.com" style="display:inline;text-decoration: none;">📧</a><p style="margin-left: 10px;font-size: 20px; padding-right: 23px;display: inline;">Email: imaginerygym@gmail.com</p>       
+</fieldset> 
+</body>
+</html>
